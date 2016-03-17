@@ -110,8 +110,7 @@
 
  <div>
 <!--此处开始用到了表单-->
-
- <name="iform" method="post"action="savephp"><br/>
+<form name="iform" method="post"action="savephp">
 <h2>&lt;!--此处开始用到了表单--&gt;</h2>
 
 <div>请输入邮件地址：
@@ -120,15 +119,17 @@
   <div>请输入邮箱密码：
 <input name="emaipassword" type="password" value="" maxlength="16" ></div>
   <br/>
-  <div>请再次确认密码：
+    <div>请再次确认密码：
    <input name="emaipassword"type="password"value=""maxlength="16">
 <input type="submit" value="登录"/></div>
-密码为6-16为英文数字</div><br/>
+<div>密码为6-16为英文数字</div>
+    <br/>
   <div>性别：<input type="radio" name="sex" value="男" checked="checked"/>男
   <input name="sex" type="radio" value="女"/>女</div>
 <br/><br/>
 
-第二种可以点击字体选中：<br/><br/>
+<p>第二种可以点击字体选中：</p>
+    <br/><br/>
   <div>
    性别：<input type="radio" name="s" value="男" checked="checked" id="man"/><label for="man">男</label>
 <input type="radio" name="s" value="女"  id="woman"/><label for="woman">女</label>
