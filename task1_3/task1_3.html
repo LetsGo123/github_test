@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lym1_3</title>
+    <style type="text/css">
+        *{margin:0px;padding: 0px;}
+        /*整体板块的类*/
+        .main{
+            background:#eee;
+            border:1px #999 solid;
+            padding: 20px;
+            margin: 20px;
+        }
+        /*左边板块的类，存放图片与文字*/
+        .left{
+            width:200px;
+            background:#fff;
+            border:1px #999 solid;
+            float: left;
+        }
+        /*左边板块的内容图片类*/
+        .left1{
+            width:80px;height:80px;
+            border:1px #999 solid;
+            margin: 20px;
+            float: left;
+        }
+        /*图片的自适应宽度设置类*/
+        .left1 img{
+            width: 100%;height: 100%;
+        }
+        /*左边板块的内容标题类*/
+        .left2{
+            padding: 10px;;
+            float: right;
+        }
+        /*文本编辑板块类*/
+        .middle{
+            margin-left:220px;margin-right: 140px;
+            background:#fff;
+            border:1px #999 solid;
+            padding: 20px;
+            text-indent: 2em;line-height: 1.5em;
+        }
+        /*右边板块类，存放各成员的图片*/
+        .right{
+            width: 120px;;
+            background:#fff;
+            border:1px #999 solid;
+            float:right;
+        }
+        /*清除浮动包含问题类*/
+        .cle{clear: both;}
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="left">
+        <div class="left1">
+            <img src="3.jpg">
+        </div>
+        <div class="left2">
+            <h3>狂人GO</h3>
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="left1">
+            <img src="c.jpg">
+        </div>
+        <div class="left1">
+            <img src="a.jpg">
+        </div>
+        <div class="left1">
+            <img src="e.jpg">
+        </div>
+        <div class="left1">
+            <img src="d.jpg">
+        </div>
+
+    </div>
+
+    <div class="middle">
+        <h2>狂人GO</h2>  <br/>
+        <p><strong>“狂人”</strong>旨在突出我们内心对待web前端的一份狂热，<strong>go go</strong> 向前冲，目标就在前方。</p>
+        <p>对于这个旅程我充满了好奇与期待，我非常庆幸自己作为大三的学生能这么找到了自己的方向，
+            这无疑为我的大学毕业埋下了伏笔，我觉得这个将是我的转折点，因为这使我不停的去追求我所想要的 ，
+            得到的是一种收获和喜悦，这就像是小时候吃到糖一样的幸福。好了，下面就粘贴一些杂句子吧。多余的话就用六个点来省略了吧......</p>
+        <p>本专业培养适应社会与经济发展需要，德、智、体全面发展，具有坚实的数理基础，
+            掌握计算机软硬件基础理论及计算机系统设计、研究、开发及综合应用方法，
+            具备较强的计算机系统程序设计能力和程序分析能力，受到良好的科学实验素养训练，
+            了解计算机科学与技术的新发展，掌握一门外语，能顺利阅读本学科外文文献的高素质应用型人才。</p>
+        <br/>
+        <p>重复几段吧</p><br/>
+        <p>本专业培养适应社会与经济发展需要，德、智、体全面发展，具有坚实的数理基础，
+            掌握计算机软硬件基础理论及计算机系统设计、研究、开发及综合应用方法，
+            具备较强的计算机系统程序设计能力和程序分析能力，受到良好的科学实验素养训练，
+            了解计算机科学与技术的新发展，掌握一门外语，能顺利阅读本学科外文文献的高素质应用型人才。</p>
+        <p>本专业培养适应社会与经济发展需要，德、智、体全面发展，具有坚实的数理基础，
+            掌握计算机软硬件基础理论及计算机系统设计、研究、开发及综合应用方法，
+            具备较强的计算机系统程序设计能力和程序分析能力，受到良好的科学实验素养训练，
+            了解计算机科学与技术的新发展，掌握一门外语，能顺利阅读本学科外文文献的高素质应用型人才。</p>
+    </div>
+    <!--此处解决浮动包含问题-->
+    <div class="cle"></div>
+</div>
+</body>
+</html>
