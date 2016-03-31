@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task1_5</title>
+    <style type="text/css">
+        *{ margin:0;padding:0;}
+        .top{
+            height: 60px;
+            background:#333;
+        }
+        .top_picture{
+            float:left;
+        }
+        .top_container{
+            float:right;
+            margin: 20px;
+        }
+        .ul_set li{
+            float: left;
+            font-size: 18px;
+            margin: 0px 10px;
+        }
+        .ul_set li a{
+            color:white;
+            text-decoration: none;
+        }
+
+        .middle{
+            background:#DEDEDE;
+            overflow: auto;
+            clear: both;
+        }
+        .middle_left{
+            width: 65%;
+            float: left;
+        }
+        .middle_left_container{
+            padding: 20px;
+            margin:20px;
+            background: #fff;
+            line-height: 1.5em;
+        }
+        .middle_left_container1 {
+            padding: 20px;
+            margin: 20px;
+            background: #fff;
+            line-height: 1.5em;
+            overflow: auto;
+
+        }
+       .middle_left_container2{
+           padding: 20px;
+           margin:20px;
+           background: #fff;
+           line-height: 1.5em;
+           clear: both;
+       }
+        .middle_left_picture {
+            border:1px solid #CBCBCB;
+            text-align:center;
+            background:white;
+            width: 140px ;height: 150px;
+            margin-top:20px;
+            margin-left:50px;
+            float: left;
+        }
+        .middle_left_pictureset{
+            text-align:center;
+            background:white;
+            padding: 2px;
+            margin-top: 12px;
+            margin-bottom: 2px;
+        }
+        .liset{
+            list-style-type: none;
+            font-weight:bold;
+        }
+        .ol_set{
+            padding-left:30px;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .middle_right{
+            width: 30%;
+            background: #ffffff;
+            padding: 20px;
+
+            position: absolute;
+            top: 82px;
+            right: 20px;
+        }
+        .submit_set{
+            text-align:center;
+        }
+        .submit_set input[type="submit"]{
+            width:350px;height: 30px;
+            background: blue;
+            border-radius:10px;
+            font-size: 1.5em ;
+        }
+
+        .t table{
+            margin: 0 auto;
+        }
+        .footer{
+            height: 60px;
+            background:#333;
+            clear: both;
+        }
+        .footer p{
+            font-size:80%;
+            font-weight: bold;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="top">
+    <div class="top_picture">
+        <img src="2.jpg">
+    </div>
+    <div class="top_container">
+        <ul class="ul_set">
+            <li><a href="#">链接一</a></li>
+            <li><a href="#">链接二</a></li>
+            <li><a href="#">链接三</a></li>
+            <li><a href="#">链接四</a></li>
+       </ul>
+    </div>
+</div>
+
+<div class="middle">
+    <div class="middle_left">
+        <div class="middle_left_container">
+            <h2>第一篇文章 HTML的旅程</h2>
+            <h3>旅程值得期待</h3>
+            <p><span>作者狂人GO</span>
+                <span>2016.3.14</span>
+            </p><br/>
+            <p>&nbsp;&nbsp;对于这个旅程我充满了好奇与期待，我非常庆幸自己作为大三的学生能这么找到了自己的方向，
+                这无疑为我的大学毕业埋下了伏笔，我觉得这个将是我的转折点，因为这使我不停的去追求我所想要的 ，
+                得到的是一种收获和喜悦，这就像是小时候吃到糖一样的幸福。好了，下面就粘贴一些杂句子吧。多余的话就用六个点来省略了吧......</p>
+            <p>&nbsp;&nbsp;本专业培养适应社会与经济发展需要，德、智、体全面发展，具有坚实的数理基础，掌握计算机软硬件基础理论<br/>
+                &nbsp;&nbsp;及计算机系统设计、研究、开发及综合应用方法，<a href="#">百度前端技术学院官网http://ife.baidu.com</a>
+                具备较强的计算机系统程序设计能力和程序分析能力，受到良好的科学实验素养训练，了解计算机科学与技术的新发展，掌握一门外语，
+                能顺利阅读本学科外文文献的高素质应用型人才。</p>
+             <img src="1.jpg"/>
+            <p>&nbsp;&nbsp;本专业培养适应社会与经济发展需要，德、智、体全面发展，具有坚实的数理基础，掌握计算机软硬件基础理论<br/>
+                &nbsp;&nbsp;及计算机系统设计、研究、开发及综合应用方法，
+                <a href="http://ife.baidu.com">百度前端技术学院官网http://ife.baidu.com</a>具备较强的计算机系统程序设计能力和程序
+                分析能力，受到良好的科学实验素养训练，了解计算机科学与技术的新发展，掌握一门外语，能顺利阅读本学科外文文献的高素质应用型人才。</p>
+        </div>
+
+        <div class="middle_left_container">
+            <h2>第二篇文章 HTML的继续</h2>
+            <h3>加油</h3>
+            <p><span>作者狂人GO</span>
+                <span>2016.3.14</span>
+            </p><br/>
+            <p>&nbsp;&nbsp;本专业培养适应社会与经济发展需要，德、智、体全面发展，具有坚实的数理基础，掌握计算机软硬件基础理论<br/>
+                &nbsp;&nbsp;及计算机系统设计、研究、开发及综合应用方法，<a href="#">百度前端技术学院官网http://ife.baidu.com</a>
+                具备较强的计算机系统程序设计能力和程序分析能力，受到良好的科学实验素养训练，了解计算机科学与技术的新发展，掌握一门外语，
+                能顺利阅读本学科外文文献的高素质应用型人才。</p>
+            <p><img src="1.jpg"/></p>
+            <ul class="ul liset">
+                <li>列表项目一</li>
+                <li>列表项目二</li>
+                <li>列表项目三</li>
+            </ul>
+        </div>
+        <div class="middle_left_container1" >
+            <div>
+                <h3>图片</h3>
+            </div>
+            <div class="middle_left_picture">
+                <div  class="middle_left_pictureset">
+                    <div>
+                        <p>好看的图</p>
+                        <img   width="90%" length="90%" src="1.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="middle_left_picture">
+                <div  class="middle_left_pictureset">
+                    <div>
+                        <p>好看的图</p>
+                        <img   width="90%" length="90%" src="1.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="middle_left_picture">
+                <div  class="middle_left_pictureset">
+                    <div>
+                        <p>好看的图</p>
+                        <img   width="90%" length="90%" src="1.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="middle_left_picture">
+                <div  class="middle_left_pictureset">
+                    <div>
+                        <p>好看的图</p>
+                        <img   width="90%" length="90%" src="1.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="middle_left_picture">
+                <div  class="middle_left_pictureset">
+                    <div>
+                        <p>好看的图</p>
+                        <img   width="90%" length="90%" src="1.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="middle_left_picture">
+                <div  class="middle_left_pictureset">
+                    <div>
+                        <p>好看的图</p>
+                        <img   width="90%" length="90%" src="1.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="middle_left_picture">
+                <div  class="middle_left_pictureset">
+                    <div>
+                        <p>好看的图</p>
+                        <img   width="90%" length="90%" src="1.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="middle_left_picture">
+                <div  class="middle_left_pictureset">
+                    <div>
+                        <p>好看的图</p>
+                        <img   width="90%" length="90%" src="1.jpg"/>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="middle_left_container2" >
+        <h2>最后一篇文章</h2>
+        <p><span>作者狂人GO</span>
+            <span>2016.3.14</span>
+        </p>
+        <ol class="ol_set">
+            <li>排名1</li>
+            <li>排名2</li>
+            <li>排名3</li>
+        </ol>
+
+        <!--此处开始用到了表格-->
+        <table border="0"  bgcolor="#CBCBCB" cellspacing="1" cellpadding="5" >
+            <thead ><tr>
+                <th bgcolor="#333333"><font color="white">成员名</font></th>
+                <th bgcolor="#333333"><font color="white">性别</font></th>
+                <th bgcolor="#333333"><font color="white">年龄</font></th>
+            </tr></thead>
+            <tbody bgcolor="white">
+            <tr>
+                <td width="550">兰义明</td><td  width="550">男</td><td width="200" ><a href="http://ife.baidu.com">21</a></td>
+            </tr>
+
+            <tr>
+                <td >段志红</td><td bgcolor="white">男</td><td ><a href="http://ife.baidu.com">21</a></td>
+            </tr>
+            <tr>
+                <td >李文静</td><td>女</td><td><a href="http://ife.baidu.com">21</a></td>
+            </tr>
+            <tr>
+                <td >秦陈程</td><td >女</td><td><a href="http://ife.baidu.com">21</a></td>
+            </tr></tbody>
+            <tfoot>
+            <tr>
+                <td>共计</td><td colspan="2">4人</td>
+            </tr></tfoot>
+        </table>
+        </div>
+    </div>
+
+    <div class="middle_right">
+        <!--此处开始用到了表单-->
+        <form  name="iform"  method="post" action="savephp">
+            <h2>这里以后是个侧栏</h2>
+            <div class="t" style="overflow:hidden">
+                <table border="0" cellspacing="5" cellpadding="2">
+
+                    <tr>
+                        <td align="right" width="130px">请输入邮件地址：</td>
+                        <td><input name="emailaddress" type="text" value="在这里输入"></td>
+                    </tr><br/>
+                    <tr> <td></td><td><font color="#a9a9a9">邮箱地址请按照正确格式输入</font></td></tr>
+                    <tr>
+                        <td align="right">请输入邮箱密码：</td>
+                        <td><input name="emaipassword" type="password" value="" maxlength="16" ></td>
+                    </tr>
+                    <tr>
+                        <td align="right">请再次确认密码：</td>
+                        <br><td><input name="emaipassword"type="password"value=""maxlength="16"></td>
+                    </tr>
+                    <tr><td></td><td><font color="#a9a9a9">密码请为6-16位英文数字</font></td></tr>
+                    <tr>
+                        <td align="right">性别：</td>
+                        <td><input type="radio" name="sex" value="男" checked="checked"/>男<input name="sex" type="radio" value="女"/>女</td>
+                    </tr>
+                    <tr>
+                        <td align="right">性别：</td>
+                        <td><input type="radio" name="s" value="男" checked="checked" id="man"/><label for="man">男</label>
+                            <input type="radio" name="s" value="女"  id="woman"/><label for="woman">女</label>
+                        </td>
+                    </tr>
+
+                    <tr><td align="right">城市：</td><td><select>
+                        <option value="北京" selected="selected"> 北京</option>
+                        <option value="上海" > 上海</option>
+                        <option value="天津"> 天津</option>
+                        <option value="山西"> 山西</option></select></td></tr>
+                    <tr><td align="right">乡镇：</td><td><select multiple="multiple">
+                        <option value="长子" selected="selected"> 长子</option>
+                        <option value="屯留" > 屯留</option>
+                        <option value="襄垣"> 襄垣</option></select></td></tr>
+                    <tr><td align="right">爱好：</td> <td>
+                        <div>
+                            <input type="checkbox" name="love" value="篮球" checked="checked"/>篮球
+                            <input type="checkbox" name="love" value="前端" checked="checked"/>前端
+                            <input type="checkbox" name="love" value="读书" />读书
+                            <input type="checkbox" name="love" value="旅行" />旅行
+                        </div>
+                    </td></tr>
+                    <tr><td align="right">个人描述：</td><td><textarea rows="5" cols="30" >请在这里输入</textarea></td></tr>
+                </table>
+            </div>
+        </form>
+        <div class="submit_set">
+            <input type="submit" value="确认提交" style="color: white"/>
+        </div>
+    </div>
+
+</div>
+
+<div class="footer">
+    <p>版本所有&copy;</p>
+</div>
+</body>
